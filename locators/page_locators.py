@@ -20,7 +20,7 @@ class PageLocators:
 
     date_birth_field = '#dateOfBirthInput'
     date_birth_month = f'select[class="react-datepicker__month-select"] {set_month_birth("10")}'
-    date_birth_year = f'select[class="react-datepicker__year-select"] {set_year_birth("1990")}'
+    date_birth_year = f'select[class="react-datepicker__year-select"] {set_year_birth("2000")}'
     date_birth_day = f'*[class="react-datepicker__day {set_day_birth("020")}"]'
 
     hobby_field = '#subjectsInput'
