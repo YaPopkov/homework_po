@@ -26,4 +26,3 @@ class FormRegistration:
     address: str
     state: str
     city: str
-    

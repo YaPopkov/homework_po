@@ -1,12 +1,6 @@
+
 class PageLocators:
-    def set_month_birth(month):
-        return f'option[value="{month}"]'
-
-    def set_year_birth(year):
-        return f'option[value="{year}"]'
-
-    def set_day_birth(day):
-        return f"react-datepicker__day--{day}"
+    URL = 'https://demoqa.com/automation-practice-form'
 
     first_name = '#firstName'
     last_name = '#lastName'
@@ -19,9 +13,9 @@ class PageLocators:
     phone = '#userNumber'
 
     date_birth_field = '#dateOfBirthInput'
-    date_birth_month = f'select[class="react-datepicker__month-select"] {set_month_birth("10")}'
-    date_birth_year = f'select[class="react-datepicker__year-select"] {set_year_birth("1990")}'
-    date_birth_day = f'*[class="react-datepicker__day {set_day_birth("020")}"]'
+    date_birth_month = f'select[class="react-datepicker__month-select"] [value="10"]'
+    date_birth_year = f'select[class="react-datepicker__year-select"] [value="1990"]'
+    date_birth_day = ".react-datepicker__day--020"
 
     hobby_field = '#subjectsInput'
     hobby_choose = '[for="hobbies-checkbox-1"]'
