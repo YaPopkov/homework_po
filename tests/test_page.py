@@ -19,7 +19,7 @@ class TestPage:
                 birth_day="20",
                 interests=Hobbies.science.value,
                 hobby='Sports',
-                photo_path="photo_test.jpg",
+                photo_path="test_photo.jpg",
                 address='USA, 12723 street',
                 state='Rajasthan',
                 city='Jaiselmer')
